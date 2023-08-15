@@ -1,0 +1,50 @@
+body {
+    background-color: antiquewhite;
+}
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header h2 nav ul li {
+    justify-content: space-between;
+    padding: 10px;
+    list-style-type: none;
+    display: inline-block;
+    align-items: center;
+}
+
+#article-about,
+#article-portfolio,
+#article-contact, {
+    
+}
+
+.article-h1 {
+    font-size: 20px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: -.5rem;
+    margin-right: -.5rem;
+    justify-content: center;
+}
+
+.small-card {
+    flex: 1 0 100%;
+    padding: 1.5rem;
+    height: 250px;
+    width: 250px;
+}
+
+#contact-info {
+    display: inline-block;
+    list-style-type: none;
+}

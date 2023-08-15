@@ -4,37 +4,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <title>Document</title>
 </head>
 
 <body>
-    <header>
+    <header class="header">
         <h1>N. Taylor Martinez</h1>
-        <nav>
-            <ul>
-                <li>
-                    <a> About Me</a>
-                </li>
-                <li>
-                    <a> Portfolio</a>
-                <li>
-                    <a> Contact</a>
-                </li>
-            </ul>
-        </nav>
+        <h2>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#article-about"> About Me </a>
+                    </li>
+                    <li>
+                        <a href="#article-portfolio"> Portfolio </a>
+                    <li>
+                        <a href="#article-contact"> Contact </a>
+                    </li>
+                </ul>
+            </nav>
+        </h2>
     </header>
     <section>
-        <article>
+        <article class="article-h1" id="article-about">
             <h1>About Me</h1>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </p>
         </article>
-        <article>
+        <article class="article-h1" id="article-portfolio">
             <h1>Portfolio</h1>
+            <div id="main-card">
+            </div>
+            <div class="row">
+                <img src=".assets/images/coming-soon-graphic.png" alt="coming-soon-graphic" class="small-card" />
+            </div>
+            <div class="row">
+                <img src=".assets/images/coming-soon-graphic.png" alt="coming-soon-graphic" class="small-card" />
+            </div>
         </article>
-        <article>
+        <article class="article-h1" id="article-contact">
             <h1>Contact Info</h1>
+            <div id="contact-info">
+            <ul>
+                <li>
+                    email
+                </li>
+                <li>
+                    number
+                </li>
+                <li>
+                    github
+                </li>
+            </ul>
+        </div>
         </article>
     </section>
 </body>
