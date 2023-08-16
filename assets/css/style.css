@@ -1,3 +1,9 @@
+* {
+    box-sizing: border-box;
+    padding: 5px;
+    margin: 5px;
+}
+
 body {
     background-color: antiquewhite;
 }
@@ -6,12 +12,11 @@ header {
     text-align: center;
 }
 
-header h1 {
+.header h1 {
     font-family: 'Times New Roman', Times, serif;
 }
 
-header h2 nav ul li {
-    justify-content: space-between;
+.header h2 nav ul li {
     padding: 10px;
     list-style-type: none;
     display: inline-block;
@@ -20,31 +25,72 @@ header h2 nav ul li {
 
 #article-about,
 #article-portfolio,
-#article-contact, {
-    
+#footer-contact,
+{
+text-align: center;
+color;
+black;
+
 }
 
 .article-h1 {
     font-size: 20px;
+    text-align: center;
 }
 
-.row {
+.h2 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.container {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
-    margin-left: -.5rem;
-    margin-right: -.5rem;
     justify-content: center;
 }
 
 .small-card {
     flex: 1 0 100%;
-    padding: 1.5rem;
-    height: 250px;
-    width: 250px;
+    height: 300px;
+    width: 1000px;
+    padding-left: 5px;
+    padding-right: 5px;
+    row-gap: 5px;
 }
 
-#contact-info {
-    display: inline-block;
+#main-card {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+}
+
+@media screen and (min-width: 768px) {
+    .small-card {
+        flex: 0 0 66%;
+    }
+
+    #main-card {
+        flex: 0 1 100%;
+        width: 600px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .small-card {
+        flex: 0 0 33.333%;
+        flex-wrap: wrap;
+    }
+
+    #main-card {
+        flex: 0 1 100%;
+        width: 800px
+    }
+}
+
+.footer {
+    text-align: center;
+}
+
+footer div ul li {
     list-style-type: none;
 }
