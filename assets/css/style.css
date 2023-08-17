@@ -95,15 +95,30 @@ header {
     .portfolio-container {
         flex-direction: column;
     }
-}
 
-/* .h2 {
-        font-size: 10px;
-    } */
+    .main-card {
+        width: 200px;
+    }
+
+    .h2 {
+        position: relative;
+        color: black;
+    }
+}
 
 @media screen and (max-width: 768px) {
     .portfolio-container {
         flex-direction: column;
+    }
+
+    .main-card {
+        width: 400px;
+    }
+
+    .h2 {
+        position: relative;
+        color: black;
+        top: 200px;
     }
 }
 
