@@ -126,24 +126,6 @@ header {
 }
 
 /*created media query to create a responsive layout that will apply to the small-card and main-card elements*/
-@media screen and (max-width: 900px) {
-    .portfolio-container {
-        flex-direction: column;
-    }
-
-    .main-card {
-        width: 400px;
-        height: 400px;
-    }
-
-    .h2 {
-        position: relative;
-        color: black;
-        top: 200px;
-    }
-}
-
-/*created media query to create a responsive layout that will apply to the small-card and main-card elements*/
 @media screen and (min-width: 992px) {
     .small-card {
         flex: 0 0 33.333%;
