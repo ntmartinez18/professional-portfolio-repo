@@ -47,7 +47,7 @@ header {
     font-size: 20px;
     position: absolute;
     top: 250px;
-    color: black
+    color: white;
 }
 
 /*created a container to hold the parent elements of the card boxes*/
